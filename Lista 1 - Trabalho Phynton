@@ -1,0 +1,12 @@
+nome = input('Qual é o seu nome? ')
+print(f'Olá {nome}, muito prazer.')
+
+
+
+numero = int(input('Informe um número inteiro qualquer: '))
+print(f'O antecessor do número {numero} é {numero - 1}, e o sucessor é {numero + 1}')
+
+
+
+numero = int(input('Informe um número inteiro qualquer: '))
+print(f'Este número com duas casas decimais fica assim: {numero:.2f}')
